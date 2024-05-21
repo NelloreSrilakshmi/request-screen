@@ -1,0 +1,353 @@
+.logo {
+  margin-left: 90px;
+  width: 440px;
+  height: 120px;
+  margin-top: 20px;
+}
+.support {
+  display: inline-block;
+  justify-content: center;
+  background-color: white;
+  width: 650px;
+  height: 600px;
+  margin-top: 0px;
+  margin-left: 300px;
+  font-family: "Roboto";
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-radius: 20px;
+  box-shadow: solid 2px #e1e0fb;
+  border-radius: 20px 0 0 20px; /* Border radius for top-right, bottom-right, bottom-left, and top-left corners respectively */
+  box-shadow: rgba(17, 12, 46, 0.15) 10px 10px 20px 0px; /* Adjust shadow values as needed */
+}
+
+.heading {
+  color:#606bf4;
+  font-family: "inter";
+  font-size: 22px;
+  font-weight: 20px;
+  line-height: 28.13px;
+  top: 130px;
+  text-align: center;
+  margin-top: 20px;
+}
+.email {
+  width: 430px;
+  height: 40px;
+  top: 208px;
+  margin-left: 110px;
+  gap: 0px;
+  border-radius: 10px;
+  border: 1px solid rgba(191, 191, 191, 1);
+  opacity: 0px;
+  text-indent: 10px; /* Adjust the value as needed */
+  font-family: "inter";
+  font-size: 15px;
+  outline: none;
+}
+
+.email:focus {
+  border-color: rgba(67, 67, 232, 1); /* Change border color when input is focused */
+}
+
+.subject {
+  width: 430px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 110px;
+  gap: 0px;
+  border-radius: 10px;
+  border: 1px solid rgba(191, 191, 191, 1);
+  opacity: 0px;
+  text-indent: 10px; /* Adjust the value as needed */
+  font-family: "inter";
+  font-size: 15px;
+  outline: none;
+
+}
+.subject:focus {
+  border-color: rgba(67, 67, 232, 1); /* Change border color when input is focused */
+}
+.description {
+  width: 430px;
+  height: 100px;
+  margin-top: 15px;
+  margin-left: 110px;
+  gap: 0px;
+  border-radius: 10px;
+  border: 1px solid rgba(191, 191, 191, 1);
+  opacity: 0px;
+  text-indent: 10px; /* Adjust the value as needed */
+  font-family: "inter";
+  font-size: 15px;
+  outline: none;
+}
+textarea {
+  width: 100%; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  margin-top: 20px; /* Adjust top margin as needed */
+}
+
+.description:focus {
+  border-color: rgba(67, 67, 232, 1); /* Change border color when input is focused */
+}
+.support-paragraph {
+  color: rgb(130, 128, 128);
+  margin-left: 130px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+  text-align: left;
+  font-family: "inter";
+  width: 370px;
+  margin-top: 5px;
+}
+.category {
+  width: 430px;
+  height: 40px;
+  margin-top: 0px;
+  margin-left: 110px;
+  gap: 0px;
+  border-radius: 10px;
+  border: 1px solid rgba(191, 191, 191, 1);
+  opacity: 0px;
+  text-indent: 10px; /* Adjust the value as needed */
+  font-family: "inter";
+  font-size: 15px;
+  outline: none;
+  color:gray;
+}
+.category:focus {
+  border-color: rgba(67, 67, 232, 1); /* Change border color when input is focused */
+}
+.attach {
+  margin-left: 120px;
+  font-size: 15px;
+  margin-top: 18px;
+  color: rgba(0, 0, 0, 1);
+  font-family: "inter";
+  /* font-weight: bold; */
+  
+}
+.support-files {
+  width: 245px;
+  height: 40px;
+  margin-top: 8px;
+  margin-left: 40px;
+  gap: 0px;
+  border-radius: 10px;
+  border: 1px solid rgba(191, 191, 191, 1);
+  opacity: 0px;
+  text-indent: 30px; /* Adjust the value as needed */
+  font-family: "inter";
+  font-size: 15px;
+  outline: none;
+}
+.support-files:focus {
+  border-color: rgb(115, 115, 245); /* Change border color when input is focused */
+}
+.d-flex {
+  display: flex;
+}
+
+.support-inputcontainer {
+  position: relative;
+  margin-left: 10px; /* Adjust margin as needed */
+  outline: none;
+}
+
+.icon {
+  position: absolute;
+  top:10px;
+  /* transform: translateY(-50%); */
+  left: 70px; /* Adjust the left position of the icon */
+  color: blue;
+  width:24px;
+  height:24px;
+}
+
+.support-files {
+  padding-left: 30px; /* Adjust padding to make space for the icon */
+}
+.support-para {
+  color: rgb(130, 128, 128);
+  margin-left: 130px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+  text-align: left;
+  font-family: "inter";
+  width: 400px;
+}
+.support-button {
+  background: rgba(67, 67, 232, 1);
+  margin-left: 250px;
+  margin-top: 0px;
+  width: 145px;
+  height: 40px;
+  color: white;
+  border-radius: 40px 40px 40px 40px;
+  border: solid 1px rgba(96, 107, 244, 1);
+  box-shadow: 1px 5px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: "inter";
+}
+.support-details {
+  position: relative; /* Ensure proper stacking context for pseudo-element */
+  background-color: black; /* Set background color to black */
+  height: 600px;
+  width: 400px;
+  margin-top: 0px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-radius: 0 20px 20px 0; /* Border radius for top-right, bottom-right, bottom-left, and top-left corners respectively */
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; /* Adjust shadow values as needed */
+}
+
+.support-details::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('women image.jpg');
+  background-size: cover; /* Adjust background size as needed */
+  /* filter: blur(3px);
+ -webkit-filter: blur(3px); */
+ opacity: 0.2;
+ border-radius: 0 20px 20px 0; /* Border radius for top-right, bottom-right, bottom-left, and top-left corners respectively */
+ box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; /* Adjust shadow values as needed */
+}
+
+.support-headquaters{
+  display: flex;
+  margin-top: 20px;
+  display:inline-block ;
+  margin-top: 170px;
+  margin-left: 30px;
+  font-family: "inter";
+  font-size: 18px;
+  color:white;
+}
+.support-icons{
+  display: inline-block;
+  color:yellow;
+  height: 25px;
+  width: 50px;
+}
+.support-files::placeholder{
+  color:blue;
+  outline: none;
+  border-color: #606bf4;
+}
+.support-address{
+  color: white;
+  font-size: 12px;
+  font-weight: 20px;
+  font-family: "inter";
+  margin-left: 45px;
+  line-height: 3px;
+}
+.support-offshore{
+  display:flex;
+  margin-top:60px;
+  margin-left: 30px;
+  font-family: "inter";
+  font-size: 18px;
+  color:white;
+}
+.support-icons1{
+  display: inline-block;
+  color:yellow;
+  height: 25px;
+  width: 50px;
+  margin-top: 20px;
+}
+.support-address1{
+  color: white;
+  font-size: 12px;
+  font-weight: 20px;
+  font-family: "inter";
+  margin-left: 45px;
+  line-height: 3px;
+  margin-top: 0px;
+}
+.support-linkedin{
+  width:30px;
+  height:30px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.support-youtube{
+  width:30px;
+  height:30px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.support-instagram{
+  width:30px;
+  height:30px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.support-facebook{
+  width:30px;
+  height:30px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.error-message{
+  color: red;
+  margin-left: 125px;
+  font-size:12px;
+}
+.input-with-icon {
+  position: relative;
+}
+
+.input-with-icon .icon {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  left:490px;
+  width:50px;
+  height: 30px;
+  transform: translateY(-50%);
+}
+.input-label {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  width:280px;
+  margin-top: 12px;
+  margin-left: 20px;
+  border-radius: 10px;
+  height:25px;
+  text-indent:80px;
+  color:blue;
+}
+
+.input-label:hover {
+  border-color: #999;
+}
+.input-label:focus{
+  border-color:#606bf4;
+}
+
+.icon {
+  margin-top: 13px;
+  margin-left: 10px;
+}
+
+.file-text {
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
